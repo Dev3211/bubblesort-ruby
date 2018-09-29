@@ -20,6 +20,6 @@ end
 puts arr.inspect
 end
 
-array = [8, 8, 5, 3, 4] // 3, 4, 5, 8, 8
+array = [8, 8, 5, 3, 4] #3, 4, 5, 8, 8
 
 bubblesort(array)
