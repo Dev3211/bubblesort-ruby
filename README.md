@@ -10,5 +10,7 @@ Example:
 
 The selection sort algorithm is simple as the bubblesort one, it works by repeatedly finding the minimum elements. In order for it to understand, you may also classify it as going in "ascending order".
 
+Example:
+
 [64, 25, 12, 22, 11] = (11 <> 64) = [11, 25, 12, 22, 64] = (25 <> 12) = [11, 12, 25, 22, 64] = (25 <> 22) = [11, 12, 22, 25, 64]
 
