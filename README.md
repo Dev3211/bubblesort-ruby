@@ -28,6 +28,6 @@ Comb sort is basically an improved version of bubble sort. Bubble sort always co
 
 Example:
 
-[64, 25, 12, 22, 11] = (11 <> 64) = [11, 25, 12, 22, 64] = (25 <> 12) = [11, 12, 25, 22, 64] = (25 <> 22) = [11, 12, 22, 25, 64]
+[1, 5, 2, 3, 4] = (5 <> 2) = [1, 2, 5, 3, 4] = (5 <> 3) = [1, 2, 3, 5, 4] = (5 <> 4) = [1, 2, 3, 4, 5]
 
 Result would be much more faster if you compare it using comb sort and bubble sort.
