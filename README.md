@@ -24,7 +24,7 @@ Example:
 
 # What is comb sort?
 
-Comb sort is basically an improved version of bubble sort. Bubble sort always compares adjacent values but comb sort is a bit different, it uses a gap size more than 1 instead of removing all the inversions one by one. The gap starts with a large value and shrinks by a factor of 1.3 in every iteration until it reaches the value 1, thus instead of removing inversions one by one it actually works by remove more than one inversion with only one swap.
+Comb sort is basically an improved version of bubble sort. Bubble sort always compares adjacent values but comb sort is a bit different, it uses a gap size more than 1 instead of removing all the inversions one by one. The gap starts with a large value and shrinks by a factor of 1.3 in every iteration until it reaches the value 1, thus instead of removing inversions one by one it actually works by removing more than one inversion with only one swap.
 
 Example:
 
