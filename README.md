@@ -21,3 +21,13 @@ Insertion sort is basically like arranging the integers inside your array in a c
 Example:
 
 [4, 3, 2, 1] = (4 <> 1) = [1, 3, 2, 4] = (3 <> 2) = [1, 2, 3, 4]
+
+# What is comb sort?
+
+Comb sort is basically an improved version of bubble sort. Bubble sort always compares adjacent values but comb sort is a bit different, it uses a gap size more than 1 instead of removing all the inversions one by one. The gap starts with a large value and shrinks by a factor of 1.3 in every iteration until it reaches the value 1, thus instead of removing inversions one by one it actually works by remove more than one inversion with only one swap.
+
+Example:
+
+[1, 5, 2, 3, 4] = (5 <> 2) = [1, 2, 5, 3, 4] = (5 <> 3) = [1, 2, 3, 5, 4] = (5 <> 4) = [1, 2, 3, 4, 5]
+
+Result would be much more faster if you compare it using comb sort and bubble sort.
